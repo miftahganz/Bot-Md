@@ -1,1 +1,1 @@
-worker : npm i ffmpeg && npm i -g pm2 && pm2 start zeeone.js && pm2 save && pm2 logs
+worker: node . --db 'mongodb+srv://miftahganz:<password>@cluster0.7bqallt.mongodb.net/?retryWrites=true&w=majority'
